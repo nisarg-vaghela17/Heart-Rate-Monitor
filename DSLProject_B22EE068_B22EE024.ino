@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3YjA5_Lrk"
-#define BLYNK_TEMPLATE_NAME "Heart Rate Monitor"
-#define BLYNK_AUTH_TOKEN "HFBh__aMVbZKfDZ6hjXX2ZxJrhbmqhls"
+#define BLYNK_TEMPLATE_ID "Enter_your_blynk_template_id"
+#define BLYNK_TEMPLATE_NAME "Enter_your_blynk_template_name"
+#define BLYNK_AUTH_TOKEN "Enter_your_blynk_auth_token" //auth token is available for a device created 
 
 #include <Wire.h>
 #include "MAX30100_PulseOximeter.h"
