@@ -24,7 +24,6 @@ To design a compact, real-time heart rate monitor capable of measuring a user's 
 ## Components Used
 
 - MAX30100 Heart Rate Sensor
-- STM32 Microcontroller (Nucleo Board)
 - ESP8266
 - Battery Power Supply
 - Supporting passive components and interconnects
