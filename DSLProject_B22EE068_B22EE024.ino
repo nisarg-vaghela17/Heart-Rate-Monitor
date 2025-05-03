@@ -8,8 +8,8 @@
 #include <BlynkSimpleEsp8266.h>
 
 
-char ssid[] = "Hello";
-char pass[] = "qwertyuiop";
+char ssid[] = "enter_your_wifi_ssid";
+char pass[] = "enter_your_wifi_password";
 
 PulseOximeter pox;
 float bpm, spo2;
