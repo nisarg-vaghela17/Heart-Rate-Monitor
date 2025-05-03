@@ -30,7 +30,7 @@ To design a compact, real-time heart rate monitor capable of measuring a user's 
 
 ## System Overview
 
-The MAX30100 sensor detects pulse rate through optical reflectance and transmits data to the STM32 microcontroller, which processes the signal and displays the heart rate on the dashboard.
+The MAX30100 sensor detects pulse rate through optical reflectance and transmits data to ESP8266, which processes the signal and displays the heart rate on the dashboard.
 
 ## Features
 
@@ -41,7 +41,7 @@ The MAX30100 sensor detects pulse rate through optical reflectance and transmits
 
 ## Working Principle
 
-The system uses photoplethysmography (PPG) to detect blood volume changes in the fingertip using infrared light. The STM32 processes the analog waveform, detects peaks, and computes beats per minute (BPM).
+The system uses photoplethysmography (PPG) to detect blood volume changes in the fingertip using infrared light. ESP8266 board processes the analog waveform, detects peaks, and computes beats per minute (BPM).
 
 ## How to Use
 
